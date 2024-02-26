@@ -1,50 +1,72 @@
-# <p align="center">MDP REPRESENTATION</p>
+# MDP REPRESENTATION
 
 ## AIM:
 To represent any one real-world problem in MDP form.
 
 ## PROBLEM STATEMENT:
+A customer is planning to buy a product online. They have three websites to choose from: Option A, Option B, and Option C. The customer wants to select the best website based on their preferences and the associated rewards.
 
-### Problem Description :
-Plants are important due to its various beneficial factors. So it is necessary to take care of them. With reinforcement learning we can train a agent to ensure the growth of a saplings.</br>
-![image](https://github.com/Jovita08/mdp-representation/assets/94174503/7dedc3d6-eeab-4985-b2f1-12256e9274b7)
+### Problem Description
+choosing the best website to buy
 
-### State Space :
-{Dead, Sapling, Plant} -> {0,1,2}
-
-### Sample State :
-Sapling
-
-### Action Space :
-{Pouring water on regular interval, not pouring water} -> {0,1}
-
-### Sample Action : 
-Pouring water on regular interval
-
-### Reward Function :
+### State Space
+The state space consists of the different options available for the customer to choose from:
 ```
-R={ +1 , on pouring water regularly
-     0 , otherwise
-  }
+State 0: Website A
+State 1: Website B
+State 2: Website C
 ```
-### Graphical Representation :
-![image](https://github.com/Jovita08/mdp-representation/assets/94174503/a3defe66-146a-4833-ba5d-80158d97094d)
+
+### Sample State
+A sample state could be the customer currently considering website B.
+
+### Action Space
+The action space consists of the decisions the customer can make:
+```
+Action 0: Stay with the current option
+Action 1: Switch to the next option
+```
+
+### Sample Action
+A sample action could be the customer deciding to switch from Website A to Website B.
+
+### Reward Function
+```
+The customer receives a reward of 0 for staying with the current option.
+If the customer switches to the last option (Website C), they receive a reward of 1.
+There are no intermediate rewards for other actions or states.
+```
+
+### Graphical Representation
+
+![WhatsApp Image 2024-02-25 at 21 02 00_b9298ddd](https://github.com/Nagul71/mdp-representation/assets/118661118/8f6d90eb-32bc-488c-b66c-6136f15165f6)
+
 
 ## PYTHON REPRESENTATION:
-Developed By : **MOHAMED ASIL M**
-</br>
-Register No. : **212222230080**
-```py
-P={0: {0: [(1.0, 0, 0.0, True)],
-       1: [(1.0, 0, 0.0, True)]},
-   1: {0: [(1.0, 0, 0.0, True)],
-       1: [(1.0, 2, 1.0, True)]},
-   2: {0: [(1.0, 2, 0.0, True)],
-       1: [(1.0, 2, 0.0, True)]}
-  }
+``` 
+P = {
+    0:{
+        0: [(1.0, 0, 0.0, True)],  
+        1: [(1.0, 1, 0.0, True)]   
+    },
+    1:{
+        0: [(1.0, 1, 0.0, True)],  
+        1: [(1.0, 2, 1.0, True)]   
+    },
+    2:{
+        0: [(1.0, 2, 0.0, True)],  
+        1: [(1.0, 2, 0.0, True)]   
+    }
+}
 ```
+
+
 ## OUTPUT:
-![image](https://github.com/Jovita08/mdp-representation/assets/94174503/5df18586-d161-4d48-8479-68480b57ab1c)
+
+![Screenshot 2024-02-25 204439](https://github.com/Nagul71/mdp-representation/assets/118661118/8ab226d5-968f-4165-b900-fab5b5612d7b)
+
 
 ## RESULT:
-Thus, a real-world problem is represented in MDP form.
+
+Thus the given real world problem is successfully represented in a MDP form .
+
