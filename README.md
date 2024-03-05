@@ -44,20 +44,24 @@ There are no intermediate rewards for other actions or states.
 
 ## PYTHON REPRESENTATION:
 ``` 
-P = {
+#Name: Mohamed asil
+#Reg No: 212222230080
+
+T = {
     0:{
-        0: [(1.0, 0, 0.0, True)],  
-        1: [(1.0, 1, 0.0, True)]   
+        0: [(0.8, 0, 0.0, True), (0.2, 1, 1.0, True)],
+        1: [(0.8, 1, 1.0, True), (0.2, 0, 0.0, True)]
     },
     1:{
-        0: [(1.0, 1, 0.0, True)],  
-        1: [(1.0, 2, 1.0, True)]   
+        0: [(0.8, 0, 0.0, True), (0.2, 2, 1.0, True)],
+        1: [(0.8, 2, 1.0, True), (0.2, 0, 0.0, True)],
     },
-    2:{
-        0: [(1.0, 2, 0.0, True)],  
-        1: [(1.0, 2, 0.0, True)]   
+    2: {
+        0: [(0.8, 1, 0.0, True), (0.2, 2, 0.0, True)],
+        1: [(0.8, 2, 0.0, True), (0.2, 1, 0.0, True)],
     }
 }
+T
 ```
 
 
