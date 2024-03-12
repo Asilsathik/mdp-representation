@@ -67,7 +67,7 @@ T
 
 ## OUTPUT:
 
-![Screenshot 2024-02-25 204439](https://github.com/Nagul71/mdp-representation/assets/118661118/8ab226d5-968f-4165-b900-fab5b5612d7b)
+![Screenshot 2024-02-23 100417](https://github.com/Anas536/mdp-representation/assets/139841834/0adaf3eb-2353-4121-a694-125a7a1d8c66)
 
 
 ## RESULT:
