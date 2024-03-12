@@ -38,8 +38,8 @@ There are no intermediate rewards for other actions or states.
 ```
 
 ### Graphical Representation
+![REINFORCEMENT LEARNING 1](https://github.com/Asilsathik/mdp-representation/assets/119476247/b89cba12-e89c-4bcb-8675-9aea92d998c4)
 
-![WhatsApp Image 2024-02-25 at 21 02 00_b9298ddd](https://github.com/Nagul71/mdp-representation/assets/118661118/8f6d90eb-32bc-488c-b66c-6136f15165f6)
 
 
 ## PYTHON REPRESENTATION:
